@@ -1,2 +1,21 @@
-# Behavioar-Based-Insider-Threat-Detection-Using-Deep-Learning
-About Cyber security issues are around the globe where data security is the major concern, one or the another company vulnerable to data leakage issues by the insiders , So to overcome this insider threats issues we developed a model which detects the insider attack prior. In this we have used LSTM-CNN and BI-LSTM-CNN to deploy a model.
+## InsiderThreat
+This research 
+
+To learn more about this - [CMU Insider Threat](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=91513)
+
+## Dataset
+
+The dataset is available at Impact Cyber Trust and can be requested [here](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=508099)
+
+## How to execute code
+Order of execution:
+
+1. Download Insider Dataset and copy it in the code folder (we recommend r5.2).
+2. Run code in this order
+	- python pre_process_data.py [dataset answer directory] [dataset directory]
+    - merge_processed.py
+    - Threatdetect-deep.py
+    - SVM_Classfication.py
+    
+
+
